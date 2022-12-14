@@ -10,6 +10,6 @@ driver.maximize_window()
 
 driver.get("https://www.ilovepdf.com/pdf_to_word")
 time.sleep(5)
-s = driver.find_element(By.ID,'pickfiles').send_keys("C:\\Users\\TigerIT\\Downloads\\SQA.pdf")
+s = driver.find_element(By.ID,'pickfiles').send_keys("file.pdf")
 #file path specified with send_keys
 time.sleep(200)
